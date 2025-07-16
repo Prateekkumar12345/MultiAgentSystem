@@ -4,11 +4,11 @@ from langchain_groq import ChatGroq
 import gradio as gr
 
 # Set API keys
-groq_api_key = "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"
+groq_api_key = ""
 os.environ["GROQ_API_KEY"] = groq_api_key
-hf_api_key = "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"
+hf_api_key = ""
 os.environ["HUGGINGFACEHUB_API_KEY"] = hf_api_key
-serper_api_key = "5cd78f5723ea9d1f0b08b01e77301fa0390fb7c3"
+serper_api_key = ""
 os.environ["SERPER_API_KEY"] = serper_api_key
 
 # Initialize LLM
